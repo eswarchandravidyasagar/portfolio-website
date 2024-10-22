@@ -56,6 +56,29 @@ p {
     line-height: 1.6;
 }
 
+/* Project Details Styles */
+.project {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 16px;
+}
+
 /* Contact Form Styles */
 form {
     display: flex;
@@ -89,10 +112,47 @@ button:hover {
     background-color: #ff4081;
 }
 
-/* Footer Styles */
-footer {
-    background-color: #212121;
-    padding: 20px;
-    text-align: center;
+/* New Contact Form Fields Styles */
+input[type="tel"], input[type="text"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #00bcd4;
+    border-radius: 5px;
+    background-color: #333;
     color: #e0e0e0;
+}
+
+/* Typography Improvements */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Animations for Smooth Transitions and Hover Effects */
+.project {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff4081;
 }
